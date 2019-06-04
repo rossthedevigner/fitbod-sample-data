@@ -1,0 +1,45 @@
+{
+  "name": "fitbod-front-end-1rm",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.0.1",
+    "@material-ui/icons": "^4.0.1",
+    "babel-plugin-styled-components": "1.10.0",
+    "ky": "0.11.0",
+    "lodash.clonedeep": "^4.5.0",
+    "npm-registry-fetch": "3.9.0",
+    "prop-types": "15.7.2",
+    "querystringify": "2.1.1",
+    "react": "16.8.6",
+    "react-async": "6.2.0",
+    "react-dom": "16.8.6",
+    "react-router": "5.0.0",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "2.1.8",
+    "react-transition-group": "4.0.1",
+    "recharts": "^1.6.2",
+    "register-service-worker": "1.6.2",
+    "styled-components": "4.2.0",
+    "styled-components-breakpoint": "2.1.1",
+    "styled-components-grid": "2.2.2",
+    "styled-icons": "7.15.1"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
