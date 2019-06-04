@@ -37,9 +37,9 @@ function ExerciseList({ ...props }) {
       }}
       open={props.drawerOpen}>
       <div className={classes.toolbarIcon}>
-        <Typography className={classes.titles}>Your Exercises</Typography>
+        <Typography className={classes.drawerTitle}>Your Exercises</Typography>
         <IconButton onClick={props.handleDrawerClose}>
-          <ChevronLeftIcon />
+          <ChevronLeftIcon className={classes.iconPrimary} />
         </IconButton>
       </div>
       <Divider />

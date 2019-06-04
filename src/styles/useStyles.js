@@ -16,6 +16,9 @@ export const useStyles = makeStyles((theme) => ({
     padding: '0 8px',
     ...theme.mixins.toolbar
   },
+  iconPrimary: {
+    color: 'white'
+  },
   appBar: {
     zIndex: theme.zIndex.drawer + 1,
     backgroundColor: '#ff6e60',
@@ -38,9 +41,9 @@ export const useStyles = makeStyles((theme) => ({
   menuButtonHidden: {
     display: 'none'
   },
-  titles: {
+  drawerTitle: {
     textAlign: 'center',
-    paddingLeft: 18,
+    paddingLeft: 40,
     textTransform: 'uppercase',
     color: 'darkGrey',
     width: '100%',
