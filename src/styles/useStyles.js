@@ -33,7 +33,7 @@ export const useStyles = makeStyles((theme) => ({
     })
   },
   menuButton: {
-    marginRight: 36
+    marginRight: 6
   },
   menuButtonHidden: {
     display: 'none'
@@ -69,7 +69,7 @@ export const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up('sm')]: {
       width: theme.spacing(9)
     },
-    // marginLeft: -drawerWidth,
+    marginLeft: -drawerWidth,
     backgroundColor: '#353533'
   },
   drawerPaperDock: { backgroundColor: '#242a2e' },
