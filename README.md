@@ -60,4 +60,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Usage
 
-Simply log in with a provider username and password to view the sample data. The app will highlight and chart the 1RM (rep max) over the course of an individual exercise's lifetime. To switch users, simple hard refresh the page.
+Simply log in with a provided username and password to view the sample data. The app will highlight and chart the 1RM (rep max) over the course of an individual exercise's lifetime. To switch users, just refresh the page.
