@@ -1,6 +1,5 @@
 import { API_URL, GET_USER, GET_USERS } from '../utils/constants';
 import { api } from '../utils/fitbod-api-service';
-import cloneDeep from 'lodash.clonedeep';
 
 const localStorageKey = '__fitbod:user__';
 
