@@ -6,7 +6,8 @@ async function api(endpoint, { body, ...config } = {}) {
   const token = window.localStorage.getItem(API_LOCAL_STORAGE_KEY);
   const headers = {
     ...config.headers,
-    'Content-Type': 'application/json'
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Credentials': true
   };
 
   headers.Authorization = `Basic ${token}`;
