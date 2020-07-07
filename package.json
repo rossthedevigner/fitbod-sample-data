@@ -10,7 +10,7 @@
     "babel-plugin-styled-components": "1.10.0",
     "ky": "0.11.0",
     "lodash.clonedeep": "^4.5.0",
-    "npm-registry-fetch": "3.9.0",
+    "npm-registry-fetch": "4.0.5",
     "prop-types": "15.7.2",
     "querystringify": "2.1.1",
     "react": "16.8.6",
